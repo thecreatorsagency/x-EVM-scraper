@@ -1,8 +1,8 @@
 (function() {
     // Configuration
-    const SCROLL_DELAY = 2000; // Wait 2 seconds between scrolls to let content load
-    const SCROLL_INCREMENT = 500; // Pixels to scroll each time
-    const MAX_SCROLLS = 100; // Safety limit to prevent infinite loops
+    const SCROLL_DELAY = 500; // Wait 2 seconds between scrolls to let content load
+    const SCROLL_INCREMENT = 1000; // Pixels to scroll each time
+    const MAX_SCROLLS = 1000; // Safety limit to prevent infinite loops
     
     // Regex pattern for Ethereum addresses (0x followed by 40 hex characters)
     const ethAddressPattern = /0x[a-fA-F0-9]{40}/g;
